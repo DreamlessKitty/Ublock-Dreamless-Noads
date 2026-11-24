@@ -5,5 +5,5 @@
 !
 
 ! x.com new layout ad blocking. Using .remove() as it is the easiest to get rid of the empty boxes. 
-x.com##div[role="link"][data-href*="/status/"]:has(a:has-text(/^(Mainos|Ad|Promoted)$/)):remove()
+x.com##div[role="link"][data-href*="/status/"]:has(a:has-text(/^Mainos$/)):remove()
 x.com##div[role="link"][data-href*="/status/"]:has(article a:has-text(/^(Mainos|Ad|Promoted)$/)):remove()

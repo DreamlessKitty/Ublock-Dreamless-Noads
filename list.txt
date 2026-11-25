@@ -6,3 +6,6 @@
 
 ! x.com, Found a new working rule on reddit. 
 x.com##li[data-index]:has(a[href*="twclid="])
+! youtube.com: Playables
+www.youtube.com##ytd-rich-section-renderer:has([href="/playables"])
+
